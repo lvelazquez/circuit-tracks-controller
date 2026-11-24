@@ -1,0 +1,14 @@
+{
+  "id": "bitbox-micro",
+  "name": "1010music Bitbox Micro",
+  "capabilities": {
+    "pad_trigger": {
+      "status": "unverified",
+      "evidence": []
+    },
+    "mod_cc": {
+      "status": "unverified",
+      "evidence": []
+    }
+  }
+}

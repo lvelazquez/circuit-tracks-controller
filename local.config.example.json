@@ -1,0 +1,5 @@
+{
+  "forkPath": "/path/to/circuit-hacks-rc (the ctl/main checkout)",
+  "python": "/path/to/circuit-hacks-rc/.venv/bin/python",
+  "stockBin": "/path/to/circuittracks-firmware-4486-STOCK.bin"
+}

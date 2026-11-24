@@ -1,0 +1,51 @@
+{
+  "id": "hermod-plus",
+  "name": "Squarp Hermod+",
+  "capabilities": {
+    "note_in": {
+      "status": "unverified",
+      "evidence": [
+        {
+          "date": "2026-11-20",
+          "note": "[unverified] Squarp Hermod+ manual (squarp.net/hermodplus/manual, read 2026-11-20), not yet tested on the unit: Track settings INPUT PORT (--, MIDI, USB DEVICE, USB HOST) and INPUT CHANNEL (CH01-CH16) route notes to a track; global ACTIVE TRACK PORT / ACTIVE TRACK CHANNEL send a port or channel to the selected track. Settings > MIDI input > NOTES must be ACCEPT."
+        }
+      ]
+    },
+    "cc_to_cv": {
+      "status": "unverified",
+      "evidence": [
+        {
+          "date": "2026-11-20",
+          "note": "[unverified] Squarp Hermod+ manual (squarp.net/hermodplus/manual, read 2026-11-20), not yet tested on the unit: A track with the layout 1 VOICE > MODULATION can output a received MIDI Control Change converted to CV. The CC is set by INPUT MIDI MOD (CC0-CC119, default CC1). Settings > MIDI input > CC MESSAGES must be ACCEPT."
+        }
+      ]
+    },
+    "mute": {
+      "status": "unverified",
+      "evidence": [
+        {
+          "date": "2026-11-20",
+          "note": "[unverified] Squarp Hermod+ manual (squarp.net/hermodplus/manual, read 2026-11-20), not yet tested on the unit: No MIDI or CV control of mutes is documented. Pattern mute and global mute are front-panel gestures only (pad, or track button + pad). MUTE AFFECTS INPUT and MUTE BY DEFAULT only change what a mute does."
+        }
+      ]
+    },
+    "pattern_select": {
+      "status": "unverified",
+      "evidence": [
+        {
+          "date": "2026-11-20",
+          "note": "[unverified] Squarp Hermod+ manual (squarp.net/hermodplus/manual, read 2026-11-20), not yet tested on the unit: Settings > MIDI input > PROG CHANGE SEQ (CH01-CH16): a Program Change on that channel selects the playing sequence SE1-SE16 (a sequence is one pattern slot across all tracks; single-track pattern select is not documented). The change is quantised by the SYNC setting unless RUN is INSTANT. Program number to sequence mapping (0-15 assumed) is not stated."
+        }
+      ]
+    },
+    "transport": {
+      "status": "unverified",
+      "evidence": [
+        {
+          "date": "2026-11-20",
+          "note": "[unverified] Squarp Hermod+ manual (squarp.net/hermodplus/manual, read 2026-11-20), not yet tested on the unit: Settings > SYNC IN > CLOCK SOURCE (INTERNAL, MIDI, DEVICE, HOST, CV A-D): with an external source Hermod+ follows that clock; the MIDI IN monitor shows clock, start and stop. Continue is not mentioned. Whether start/stop act without clock, or with CLOCK SOURCE INTERNAL, is not stated."
+        }
+      ]
+    }
+  }
+}

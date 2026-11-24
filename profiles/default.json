@@ -1,0 +1,425 @@
+{
+  "schema": 1,
+  "name": "Default",
+  "description": "The firmware default: page 1 is 32 gate notes (36-67) on channel 5 to every port. Pages 2-3 and the knob banks are empty.",
+  "pages": [
+    {
+      "name": "Notes",
+      "bankOnEnter": 1,
+      "pads": [
+        {
+          "pad": 1,
+          "type": "note_gate",
+          "channel": 5,
+          "note": 36,
+          "ports": [
+            "usb",
+            "din",
+            "out2"
+          ],
+          "colour": "orange"
+        },
+        {
+          "pad": 2,
+          "type": "note_gate",
+          "channel": 5,
+          "note": 37,
+          "ports": [
+            "usb",
+            "din",
+            "out2"
+          ],
+          "colour": "orange"
+        },
+        {
+          "pad": 3,
+          "type": "note_gate",
+          "channel": 5,
+          "note": 38,
+          "ports": [
+            "usb",
+            "din",
+            "out2"
+          ],
+          "colour": "orange"
+        },
+        {
+          "pad": 4,
+          "type": "note_gate",
+          "channel": 5,
+          "note": 39,
+          "ports": [
+            "usb",
+            "din",
+            "out2"
+          ],
+          "colour": "orange"
+        },
+        {
+          "pad": 5,
+          "type": "note_gate",
+          "channel": 5,
+          "note": 40,
+          "ports": [
+            "usb",
+            "din",
+            "out2"
+          ],
+          "colour": "orange"
+        },
+        {
+          "pad": 6,
+          "type": "note_gate",
+          "channel": 5,
+          "note": 41,
+          "ports": [
+            "usb",
+            "din",
+            "out2"
+          ],
+          "colour": "orange"
+        },
+        {
+          "pad": 7,
+          "type": "note_gate",
+          "channel": 5,
+          "note": 42,
+          "ports": [
+            "usb",
+            "din",
+            "out2"
+          ],
+          "colour": "orange"
+        },
+        {
+          "pad": 8,
+          "type": "note_gate",
+          "channel": 5,
+          "note": 43,
+          "ports": [
+            "usb",
+            "din",
+            "out2"
+          ],
+          "colour": "orange"
+        },
+        {
+          "pad": 9,
+          "type": "note_gate",
+          "channel": 5,
+          "note": 44,
+          "ports": [
+            "usb",
+            "din",
+            "out2"
+          ],
+          "colour": "orange"
+        },
+        {
+          "pad": 10,
+          "type": "note_gate",
+          "channel": 5,
+          "note": 45,
+          "ports": [
+            "usb",
+            "din",
+            "out2"
+          ],
+          "colour": "orange"
+        },
+        {
+          "pad": 11,
+          "type": "note_gate",
+          "channel": 5,
+          "note": 46,
+          "ports": [
+            "usb",
+            "din",
+            "out2"
+          ],
+          "colour": "orange"
+        },
+        {
+          "pad": 12,
+          "type": "note_gate",
+          "channel": 5,
+          "note": 47,
+          "ports": [
+            "usb",
+            "din",
+            "out2"
+          ],
+          "colour": "orange"
+        },
+        {
+          "pad": 13,
+          "type": "note_gate",
+          "channel": 5,
+          "note": 48,
+          "ports": [
+            "usb",
+            "din",
+            "out2"
+          ],
+          "colour": "orange"
+        },
+        {
+          "pad": 14,
+          "type": "note_gate",
+          "channel": 5,
+          "note": 49,
+          "ports": [
+            "usb",
+            "din",
+            "out2"
+          ],
+          "colour": "orange"
+        },
+        {
+          "pad": 15,
+          "type": "note_gate",
+          "channel": 5,
+          "note": 50,
+          "ports": [
+            "usb",
+            "din",
+            "out2"
+          ],
+          "colour": "orange"
+        },
+        {
+          "pad": 16,
+          "type": "note_gate",
+          "channel": 5,
+          "note": 51,
+          "ports": [
+            "usb",
+            "din",
+            "out2"
+          ],
+          "colour": "orange"
+        },
+        {
+          "pad": 17,
+          "type": "note_gate",
+          "channel": 5,
+          "note": 52,
+          "ports": [
+            "usb",
+            "din",
+            "out2"
+          ],
+          "colour": "orange"
+        },
+        {
+          "pad": 18,
+          "type": "note_gate",
+          "channel": 5,
+          "note": 53,
+          "ports": [
+            "usb",
+            "din",
+            "out2"
+          ],
+          "colour": "orange"
+        },
+        {
+          "pad": 19,
+          "type": "note_gate",
+          "channel": 5,
+          "note": 54,
+          "ports": [
+            "usb",
+            "din",
+            "out2"
+          ],
+          "colour": "orange"
+        },
+        {
+          "pad": 20,
+          "type": "note_gate",
+          "channel": 5,
+          "note": 55,
+          "ports": [
+            "usb",
+            "din",
+            "out2"
+          ],
+          "colour": "orange"
+        },
+        {
+          "pad": 21,
+          "type": "note_gate",
+          "channel": 5,
+          "note": 56,
+          "ports": [
+            "usb",
+            "din",
+            "out2"
+          ],
+          "colour": "orange"
+        },
+        {
+          "pad": 22,
+          "type": "note_gate",
+          "channel": 5,
+          "note": 57,
+          "ports": [
+            "usb",
+            "din",
+            "out2"
+          ],
+          "colour": "orange"
+        },
+        {
+          "pad": 23,
+          "type": "note_gate",
+          "channel": 5,
+          "note": 58,
+          "ports": [
+            "usb",
+            "din",
+            "out2"
+          ],
+          "colour": "orange"
+        },
+        {
+          "pad": 24,
+          "type": "note_gate",
+          "channel": 5,
+          "note": 59,
+          "ports": [
+            "usb",
+            "din",
+            "out2"
+          ],
+          "colour": "orange"
+        },
+        {
+          "pad": 25,
+          "type": "note_gate",
+          "channel": 5,
+          "note": 60,
+          "ports": [
+            "usb",
+            "din",
+            "out2"
+          ],
+          "colour": "orange"
+        },
+        {
+          "pad": 26,
+          "type": "note_gate",
+          "channel": 5,
+          "note": 61,
+          "ports": [
+            "usb",
+            "din",
+            "out2"
+          ],
+          "colour": "orange"
+        },
+        {
+          "pad": 27,
+          "type": "note_gate",
+          "channel": 5,
+          "note": 62,
+          "ports": [
+            "usb",
+            "din",
+            "out2"
+          ],
+          "colour": "orange"
+        },
+        {
+          "pad": 28,
+          "type": "note_gate",
+          "channel": 5,
+          "note": 63,
+          "ports": [
+            "usb",
+            "din",
+            "out2"
+          ],
+          "colour": "orange"
+        },
+        {
+          "pad": 29,
+          "type": "note_gate",
+          "channel": 5,
+          "note": 64,
+          "ports": [
+            "usb",
+            "din",
+            "out2"
+          ],
+          "colour": "orange"
+        },
+        {
+          "pad": 30,
+          "type": "note_gate",
+          "channel": 5,
+          "note": 65,
+          "ports": [
+            "usb",
+            "din",
+            "out2"
+          ],
+          "colour": "orange"
+        },
+        {
+          "pad": 31,
+          "type": "note_gate",
+          "channel": 5,
+          "note": 66,
+          "ports": [
+            "usb",
+            "din",
+            "out2"
+          ],
+          "colour": "orange"
+        },
+        {
+          "pad": 32,
+          "type": "note_gate",
+          "channel": 5,
+          "note": 67,
+          "ports": [
+            "usb",
+            "din",
+            "out2"
+          ],
+          "colour": "orange"
+        }
+      ]
+    },
+    {
+      "name": "Page 2",
+      "bankOnEnter": 2,
+      "pads": []
+    },
+    {
+      "name": "Page 3",
+      "bankOnEnter": 3,
+      "pads": []
+    }
+  ],
+  "banks": [
+    {
+      "name": "Bank 1",
+      "knobs": []
+    },
+    {
+      "name": "Bank 2",
+      "knobs": []
+    },
+    {
+      "name": "Bank 3",
+      "knobs": []
+    },
+    {
+      "name": "Bank 4",
+      "knobs": []
+    }
+  ]
+}

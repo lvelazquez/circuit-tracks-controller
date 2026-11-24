@@ -1,0 +1,13 @@
+{
+  "name": "circuit-tracks-controller",
+  "private": true,
+  "type": "module",
+  "workspaces": ["packages/*"],
+  "engines": { "node": ">=22.18" },
+  "scripts": {
+    "typecheck": "tsc -p packages/profile --noEmit && tsc -p packages/mcp-server --noEmit",
+    "test": "node --test \"packages/*/test/*.test.ts\"",
+    "emit-layout": "node packages/profile/src/emit-layout.ts fixtures/layout.json"
+  },
+  "devDependencies": { "typescript": "^5.9.0", "@types/node": "^22.0.0" }
+}
